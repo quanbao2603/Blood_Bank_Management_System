@@ -45,22 +45,22 @@
             this.MyProgress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
             this.MyProgress.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.MyProgress.ForeColor = System.Drawing.Color.White;
-            this.MyProgress.Location = new System.Drawing.Point(292, 119);
-            this.MyProgress.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MyProgress.Location = new System.Drawing.Point(260, 95);
             this.MyProgress.Minimum = 0;
             this.MyProgress.Name = "MyProgress";
+            this.MyProgress.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.MyProgress.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(190)))), ((int)(((byte)(197)))));
             this.MyProgress.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.MyProgress.Size = new System.Drawing.Size(329, 329);
+            this.MyProgress.Size = new System.Drawing.Size(263, 263);
             this.MyProgress.TabIndex = 0;
             this.MyProgress.Text = "guna2CircleProgressBar1";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(69, 76);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(61, 61);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(158, 175);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 140);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -68,24 +68,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(32, 34);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(63, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(867, 52);
+            this.label1.Size = new System.Drawing.Size(689, 50);
             this.label1.TabIndex = 1;
             this.label1.Text = "BLOOD BANK MANAGEMENT SYSTEM";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(261, 490);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(290, 381);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(384, 52);
+            this.label2.Size = new System.Drawing.Size(235, 50);
             this.label2.TabIndex = 2;
-            this.label2.Text = "WOM HOSPITAL";
+            this.label2.Text = "WOM BANK";
             // 
             // timer1
             // 
@@ -93,14 +93,13 @@
             // 
             // Splash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(916, 566);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(216)))), ((int)(((byte)(220)))));
+            this.ClientSize = new System.Drawing.Size(814, 453);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.MyProgress);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Splash";

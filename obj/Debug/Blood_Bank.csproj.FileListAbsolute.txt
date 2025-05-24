@@ -3,7 +3,6 @@ D:\Winform\Blood_Bank\bin\Debug\Blood_Bank.exe
 D:\Winform\Blood_Bank\bin\Debug\Blood_Bank.pdb
 D:\Winform\Blood_Bank\bin\Debug\Guna.UI2.dll
 D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.AssemblyReference.cache
-D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Form1.resources
 D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Properties.Resources.resources
 D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.GenerateResource.cache
 D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.CoreCompileInputs.cache
@@ -78,3 +77,5 @@ C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.CoreCompile
 C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.Up2Date
 C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.exe
 C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.pdb
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.CreateAccount.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.ResetPass.resources

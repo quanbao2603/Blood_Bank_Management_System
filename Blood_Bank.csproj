@@ -135,6 +135,7 @@
     <Compile Include="UI\CreateAccount.Designer.cs">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI_Helper\GradientBackgroundHelper.cs" />
     <Compile Include="UI\ResetPass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +180,8 @@
     <Compile Include="UI\View_Patients.Designer.cs">
       <DependentUpon>View_Patients.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI_Helper\RoundLabelHelper.cs" />
+    <Compile Include="UI_Helper\RoundPannel.cs" />
     <EmbeddedResource Include="UI\AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +215,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UI\ResetPass.resx">
       <DependentUpon>ResetPass.cs</DependentUpon>
@@ -245,12 +249,64 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Montserrat.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="source\" />
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\being_sick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghagfqtvu3a49bnj2fb3ibpf4l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\needle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NicePng_blood-symbol-png_3647802.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiết kế chưa có tên - 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thiết kế chưa có tên.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundlogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\header_1500x1000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\123.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoca.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
