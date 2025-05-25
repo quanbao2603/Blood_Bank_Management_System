@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank
 {
@@ -16,6 +17,8 @@ namespace Blood_Bank
         public Mainform()
         {
             InitializeComponent();
+            panel1.Paint += (sender, e) => GradientBackgroundHelper.DrawGradientOnControl(panel1, e);
+            panel2.Paint += (s, e) => GradientBackgroundHelper.DrawRightPanelGradient(panel2, e);
 
         }
 
@@ -149,6 +152,40 @@ namespace Blood_Bank
                 Login loginForm = new Login();
                 loginForm.Show();
             }
+        }
+
+        private void Mainform_Load(object sender, EventArgs e)
+        {
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.White;
+            label5.BackColor = Color.Transparent;
+            label5.ForeColor = Color.White;
+            label6.BackColor = Color.Transparent;
+            label6.ForeColor = Color.White;
+            label7.BackColor = Color.Transparent;
+            label7.ForeColor = Color.White;
+            label8.BackColor = Color.Transparent;
+            label8.ForeColor = Color.White;
+            label9.BackColor = Color.Transparent;
+            label9.ForeColor = Color.White;
+            label10.BackColor = Color.Transparent;
+            label10.ForeColor = Color.White;
+
+            label1.BackColor = Color.Transparent;
+            label1.Parent = panel2;
+            label1.ForeColor = Color.Black;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Parent = panel2;
+            pictureBox1.ForeColor = Color.Black;
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

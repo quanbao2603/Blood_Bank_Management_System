@@ -311,5 +311,29 @@
   <ItemGroup>
     <None Include="Resources\red_blood.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-blood-bank-png-image_6099157.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-donation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospitalisation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

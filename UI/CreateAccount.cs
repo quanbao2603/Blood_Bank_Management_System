@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Blood_Bank.Service;
@@ -64,6 +65,9 @@ namespace Blood_Bank.UI
 
             label5.MouseEnter += Label_MouseEnter;
             label5.MouseLeave += Label_MouseLeave;
+
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 0;
         }
 
         private void Label_MouseEnter(object sender, EventArgs e)
@@ -84,6 +88,49 @@ namespace Blood_Bank.UI
             Login login = new Login();
             login.Show();
             this.Hide();
+        }
+
+        private void EmailTb_TextChanged(object sender, EventArgs e)
+        {
+            string email = EmailTb.Text;
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+            if (!Regex.IsMatch(email, emailPattern))
+            {
+                EmailTb.ForeColor = Color.Red; 
+            }
+            else
+            {
+                EmailTb.ForeColor = Color.Black;
+            }
+        }
+
+        private void AccountTb_TextChanged(object sender, EventArgs e)
+        {
+            string currentText = AccountTb.Text;
+
+            if (!Regex.IsMatch(currentText, @"^[a-zA-Z0-9@#]*$"))
+            {
+                MessageBox.Show("Chỉ được nhập chữ cái, số, @ và #", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                reset();
+            }
+        }
+
+        private void PasswordTb_TextChanged(object sender, EventArgs e)
+        {
+            string currentText = PasswordTb.Text;
+            PasswordTb.UseSystemPasswordChar = false;
+
+            if (!Regex.IsMatch(currentText, @"^[a-zA-Z0-9@#]*$"))
+            {
+                MessageBox.Show("Mật khẩu chỉ được chứa chữ cái, số, @ và #", "Lỗi nhập mật khẩu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                reset();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PasswordTb.UseSystemPasswordChar = !PasswordTb.UseSystemPasswordChar;
         }
     }
 }

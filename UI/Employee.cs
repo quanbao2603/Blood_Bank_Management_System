@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Blood_Bank.Service;
+using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank.UI
 {
@@ -22,12 +23,13 @@ namespace Blood_Bank.UI
             _service = new EmployeeService();
             populate();
             ConfigureDataGridView();
-           
+            panel1.Paint += (sender, e) => GradientBackgroundHelper.DrawGradientOnControl(panel2, e);
+            panel2.Paint += (s, e) => GradientBackgroundHelper.DrawRightPanelGradient(panel1, e);
         }
         private void ConfigureDataGridView()
         {
-            EmpDGV.ReadOnly = false; // Cho phép chỉnh sửa toàn bộ DataGridView
-            EmpDGV.EditMode = DataGridViewEditMode.EditOnEnter; // Cho phép chỉnh sửa khi nhấp chuột
+            EmpDGV.ReadOnly = false; 
+            EmpDGV.EditMode = DataGridViewEditMode.EditOnEnter; 
            
         }
         private void reset()
@@ -70,7 +72,35 @@ namespace Blood_Bank.UI
 
         private void Employee_Load(object sender, EventArgs e)
         {
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.White;
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label9.BackColor = Color.Transparent;
+            label9.ForeColor = Color.White;
 
+            label4.BackColor = Color.Transparent;
+            label4.Parent = panel2;
+            label4.ForeColor = Color.Red;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Parent = panel2;
+            label5.BackColor = Color.Transparent;
+            label5.Parent = panel2;
+            label5.ForeColor = Color.Red;
+            label6.BackColor = Color.Transparent;
+            label6.Parent = panel2;
+            label6.ForeColor = Color.Red;
+            label7.BackColor = Color.Transparent;
+            label7.Parent = panel2;
+            label7.ForeColor = Color.Red;
+            guna2Button1.BackColor = Color.Transparent;
+            guna2Button1.Parent = panel2;
+            guna2Button2.BackColor = Color.Transparent;
+            guna2Button2.Parent = panel2;
+            guna2Button3.BackColor = Color.Transparent;
+            guna2Button3.Parent = panel2;
         }
 
         private void EmpPassTb_TextChanged(object sender, EventArgs e)
@@ -167,6 +197,9 @@ namespace Blood_Bank.UI
             }
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }

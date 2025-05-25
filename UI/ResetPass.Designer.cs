@@ -67,6 +67,7 @@
             this.EmailTb.Name = "EmailTb";
             this.EmailTb.Size = new System.Drawing.Size(370, 38);
             this.EmailTb.TabIndex = 20;
+            this.EmailTb.TextChanged += new System.EventHandler(this.EmailTb_TextChanged);
             // 
             // pictureBox2
             // 

@@ -24,7 +24,7 @@ namespace Blood_Bank.Service
 
         public void AddEmployee(string empId, string empPass, string empEmail)
         {
-            if (string.IsNullOrWhiteSpace(empId) || string.IsNullOrWhiteSpace(empPass))
+            if (string.IsNullOrWhiteSpace(empId) || string.IsNullOrWhiteSpace(empPass) || string.IsNullOrWhiteSpace(empEmail))
             {
                 throw new ArgumentException("Missing Information");
             }

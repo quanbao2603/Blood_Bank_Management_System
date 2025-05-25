@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Blood_Bank.Service;   
@@ -74,7 +75,10 @@ namespace Blood_Bank
             RoundLabelHelper.Apply(label9, 10);
 
             this.BackgroundImage = Properties.Resources.icoc;
-            this.BackgroundImageLayout = ImageLayout.Stretch; 
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 0;
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
@@ -147,6 +151,11 @@ namespace Blood_Bank
         {
             var label = sender as Label;
             label.ForeColor = Color.FromArgb(192, 255, 192);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            EmpPassTb.UseSystemPasswordChar = !EmpPassTb.UseSystemPasswordChar;
         }
     }
 }

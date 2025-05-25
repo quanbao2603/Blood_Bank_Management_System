@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Blood_Bank.Service;
+using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank
 {
@@ -22,6 +23,8 @@ namespace Blood_Bank
             InitializeComponent();
             _service = new ViewDonorsService();
             PopulateDonors();
+            panel1.Paint += (sender, e) => GradientBackgroundHelper.DrawGradientOnControl(panel1, e);
+            panel2.Paint += (s, e) => GradientBackgroundHelper.DrawRightPanelGradient(panel2, e);
         }
 
         private void PopulateDonors()
@@ -32,7 +35,31 @@ namespace Blood_Bank
 
         private void View_Donors_Load(object sender, EventArgs e)
         {
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.White;
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.White;
+            label5.BackColor = Color.Transparent;
+            label5.ForeColor = Color.White;
+            label6.BackColor = Color.Transparent;
+            label6.ForeColor = Color.White;
+            label7.BackColor = Color.Transparent;
+            label7.ForeColor = Color.White;
+            label8.BackColor = Color.Transparent;
+            label8.ForeColor = Color.White;
+            label9.BackColor = Color.Transparent;
+            label9.ForeColor = Color.White;
 
+            label10.BackColor = Color.Transparent;
+            label10.Parent = panel2;
+            label10.ForeColor = Color.Red;
+            label11.BackColor = Color.Transparent;
+            label11.Parent = panel2;
+            label11.ForeColor = Color.Red;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -80,6 +107,11 @@ namespace Blood_Bank
                 Login loginForm = new Login();
                 loginForm.Show();
             }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

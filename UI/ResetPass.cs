@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -78,6 +79,21 @@ namespace Blood_Bank.UI
         {
             var label = sender as Label;
             label.ForeColor = Color.FromArgb(192, 255, 192);
+        }
+
+        private void EmailTb_TextChanged(object sender, EventArgs e)
+        {
+            string email = EmailTb.Text;
+            string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+            if (!Regex.IsMatch(email, emailPattern))
+            {
+                EmailTb.ForeColor = Color.Red;
+            }
+            else
+            {
+                EmailTb.ForeColor = Color.Black;
+            }
         }
     }
 }

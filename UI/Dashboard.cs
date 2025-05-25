@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
 using Blood_Bank.Service;
+using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank
 {
@@ -24,6 +25,8 @@ namespace Blood_Bank
             InitializeComponent();
             _service = new DashboardService();
             GetData();
+            panel1.Paint += (sender, e) => GradientBackgroundHelper.DrawGradientOnControl(panel1, e);
+            panel2.Paint += (s, e) => GradientBackgroundHelper.DrawRightPanelGradient(panel2, e);
 
         }
         
@@ -81,7 +84,57 @@ namespace Blood_Bank
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
-           
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.White;
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.White;
+            label5.BackColor = Color.Transparent;
+            label5.ForeColor = Color.White;
+            label6.BackColor = Color.Transparent;
+            label6.ForeColor = Color.White;
+            label7.BackColor = Color.Transparent;
+            label7.ForeColor = Color.White;
+            label8.BackColor = Color.Transparent;
+            label8.ForeColor = Color.White;
+            label9.BackColor = Color.Transparent;
+            label9.ForeColor = Color.White;
+
+            label10.BackColor = Color.Transparent;
+            label10.Parent = panel2;
+            label10.ForeColor = Color.Red;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Parent = panel2;
+            label11.BackColor = Color.Transparent;
+            label11.Parent = panel2;
+            label11.ForeColor = Color.Red;
+            Label12.BackColor = Color.Transparent;
+            Label12.Parent = panel2;
+            Label12.ForeColor = Color.Red;
+            label13.BackColor = Color.Transparent;
+            label13.Parent = panel2;
+            label13.ForeColor = Color.Red;
+            label14.BackColor = Color.Transparent;
+            label14.Parent = panel2;
+            label14.ForeColor = Color.Red;
+            TotalLbl.BackColor = Color.Transparent;
+            TotalLbl.Parent = panel2;
+            TotalLbl.ForeColor = Color.Red;
+
+            OPlusProgress.BackColor = Color.Transparent;
+            OPlusProgress.Parent = panel2;
+
+            ABPlusProgress.BackColor = Color.Transparent;
+            ABPlusProgress.Parent = panel2;
+
+            OMinusProgress.BackColor = Color.Transparent;
+            OMinusProgress.Parent = panel2;
+
+            ABMinusProgress.BackColor = Color.Transparent;
+            ABMinusProgress.Parent = panel2;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -131,6 +184,11 @@ namespace Blood_Bank
                 Login loginForm = new Login();
                 loginForm.Show();
             }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
