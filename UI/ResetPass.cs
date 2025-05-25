@@ -1,4 +1,5 @@
 ﻿using Blood_Bank.Service;
+using Blood_Bank.UI_Helper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +17,7 @@ namespace Blood_Bank.UI
         public ResetPass()
         {
             InitializeComponent();
+            this.Paint += (s, e) => GradientBackgroundHelper.DrawDefaultGradient(s, e);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -52,6 +54,30 @@ namespace Blood_Bank.UI
             {
                 MessageBox.Show("Failed to send email: " + ex.Message);
             }
+        }
+
+        private void ResetPass_Load(object sender, EventArgs e)
+        {
+            label1.BackColor = Color.Transparent;
+            label2.BackColor = Color.Transparent;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox2.BackColor = Color.Transparent;
+            guna2Button1.BackColor = Color.Transparent;
+            label2.MouseEnter += Label_MouseEnter;
+            label2.MouseLeave += Label_MouseLeave;
+        }
+
+        private void Label_MouseEnter(object sender, EventArgs e)
+        {
+            var label = sender as Label;
+            label.ForeColor = Color.Red;
+            label.Cursor = Cursors.Hand;
+        }
+
+        private void Label_MouseLeave(object sender, EventArgs e)
+        {
+            var label = sender as Label;
+            label.ForeColor = Color.FromArgb(192, 255, 192);
         }
     }
 }

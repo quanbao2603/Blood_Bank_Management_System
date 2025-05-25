@@ -308,5 +308,8 @@
   <ItemGroup>
     <None Include="Resources\icoca.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_blood.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
