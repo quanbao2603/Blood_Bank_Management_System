@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Blood_Bank.Service;
+using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank.UI
 {
@@ -24,11 +25,20 @@ namespace Blood_Bank.UI
             _service = new DonateBloodService();
             LoadDonors();
             LoadBloodStock();
+            panel1.Paint += (sender, e) => GradientBackgroundHelper.DrawGradientOnControl(panel2, e);
+            panel2.Paint += (s, e) => GradientBackgroundHelper.DrawRightPanelGradient(panel1, e);
         }
         
         private void DonateBlood_Load(object sender, EventArgs e)
         {
-
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.White;
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label9.BackColor = Color.Transparent;
+            label9.ForeColor = Color.White;
         }
 
         private void LoadDonors()
