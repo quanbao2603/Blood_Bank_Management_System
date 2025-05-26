@@ -263,6 +263,16 @@ namespace Blood_Bank.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap personnel {
+            get {
+                object obj = ResourceManager.GetObject("personnel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_blood_bank_png_image_6099157 {
             get {
                 object obj = ResourceManager.GetObject("pngtree_blood_bank_png_image_6099157", resourceCulture);

@@ -16,6 +16,7 @@ namespace Blood_Bank.UI
         public AdminLogin()
         {
             InitializeComponent();
+            this.Paint += (s, e) => Blood_Bank.UI_Helper.GradientBackgroundHelper.DrawDefaultGradient(s, e);
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -31,7 +32,7 @@ namespace Blood_Bank.UI
             {
                 MessageBox.Show("Enter The Admin Password");
             }
-            else if (AdminPassTb.Text == "1")
+            else if (AdminPassTb.Text == "password")
             {
                 Employee emp = new Employee();
                 emp.Show();
@@ -46,6 +47,14 @@ namespace Blood_Bank.UI
 
         private void AdminLogin_Load(object sender, EventArgs e)
         {
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.White;
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            pictureBox1.BackColor = Color.Transparent;
+            guna2Button1.BackColor = Color.Transparent;
 
         }
 
@@ -63,7 +72,5 @@ namespace Blood_Bank.UI
                 Application.Exit();
             }
         }
-
-
     }
 }

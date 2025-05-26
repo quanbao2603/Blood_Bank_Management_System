@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Blood_Bank.Service;
+using Blood_Bank.UI;
 using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank
@@ -60,6 +61,8 @@ namespace Blood_Bank
             label11.BackColor = Color.Transparent;
             label11.Parent = panel2;
             label11.ForeColor = Color.Red;
+
+            DonorDGV.ReadOnly = true;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -112,6 +115,16 @@ namespace Blood_Bank
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void DonorDGV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                int donorId = Convert.ToInt32(DonorDGV.Rows[e.RowIndex].Cells["DNum"].Value);
+                DonorHistory historyForm = new DonorHistory(donorId);
+                historyForm.ShowDialog(); // hoặc .Show()
+            }
         }
     }
 }

@@ -123,6 +123,12 @@
     <Compile Include="UI\Donor.Designer.cs">
       <DependentUpon>Donor.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\DonorHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DonorHistory.Designer.cs">
+      <DependentUpon>DonorHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Employee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Donor.resx">
       <DependentUpon>Donor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DonorHistory.resx">
+      <DependentUpon>DonorHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
@@ -334,6 +343,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personnel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

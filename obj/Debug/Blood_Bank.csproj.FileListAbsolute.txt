@@ -79,3 +79,4 @@ C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.exe
 C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.pdb
 D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.CreateAccount.resources
 D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.ResetPass.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.DonorHistory.resources
