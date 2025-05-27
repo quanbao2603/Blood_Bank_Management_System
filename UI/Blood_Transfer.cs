@@ -33,6 +33,9 @@ namespace Blood_Bank
        
         private void Blood_Transfer_Load(object sender, EventArgs e)
         {
+            TransferBtn.Visible = true;
+            TransferBtn.Enabled = false;
+
             label1.BackColor = Color.Transparent;
             label1.ForeColor = Color.White;
             label2.BackColor = Color.Transparent;
@@ -117,14 +120,18 @@ namespace Blood_Bank
                 {
                     TransferBtn.Enabled = true;
                     AvailableLbl.Text = "Available Stock";
+                    AvailableLbl.ForeColor = Color.Green;
                 }
                 else
                 {
                     TransferBtn.Enabled = false;
                     AvailableLbl.Text = "Stock Not Available";
+                    AvailableLbl.ForeColor = Color.Red;
                 }
 
                 AvailableLbl.Visible = true;
+                TransferBtn.Visible = true; 
+
             }
             catch (Exception ex)
             {
@@ -153,7 +160,7 @@ namespace Blood_Bank
             BloodGroup.Text = "";
             PatientIdCb.SelectedIndex = -1;
             AvailableLbl.Visible = false;
-            TransferBtn.Visible = false;
+            TransferBtn.Enabled = false;
         }
         private void TransferBtn_Click(object sender, EventArgs e)
         {
