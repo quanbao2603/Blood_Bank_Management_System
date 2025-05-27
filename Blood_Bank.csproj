@@ -78,6 +78,7 @@
     <Compile Include="Data\ViewPatientsRepository.cs" />
     <Compile Include="Service\BloodStockService.cs" />
     <Compile Include="Service\BloodTransferService.cs" />
+    <Compile Include="Service\FormNavigator.cs" />
     <Compile Include="Service\MailService.cs" />
     <Compile Include="Service\DashboardService.cs" />
     <Compile Include="Service\DonateBloodService.cs" />
@@ -141,11 +142,11 @@
     <Compile Include="UI\CreateAccount.Designer.cs">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Form1.cs">
+    <Compile Include="UI\BloodBag.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UI\BloodBag.Designer.cs">
+      <DependentUpon>BloodBag.cs</DependentUpon>
     </Compile>
     <Compile Include="UI_Helper\GradientBackgroundHelper.cs" />
     <Compile Include="UI\ResetPass.cs">
@@ -232,8 +233,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UI\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="UI\BloodBag.resx">
+      <DependentUpon>BloodBag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\ResetPass.resx">
       <DependentUpon>ResetPass.cs</DependentUpon>
@@ -355,6 +356,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\personnel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-blood-bag-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -108,7 +108,6 @@ D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.CoreCompileInputs
 D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.Up2Date
 D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe
 D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.pdb
-D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.Form1.resources
 D:\Winform\Blood_Bank_Management_System\bin\Debug\Blood_Bank.exe.config
 D:\Winform\Blood_Bank_Management_System\bin\Debug\Blood_Bank.exe
 D:\Winform\Blood_Bank_Management_System\bin\Debug\Blood_Bank.pdb
@@ -138,3 +137,4 @@ D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.CoreCompileI
 D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.Up2Date
 D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe
 D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.pdb
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.BloodBag.resources

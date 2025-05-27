@@ -260,13 +260,14 @@
             this.label1.Size = new System.Drawing.Size(118, 31);
             this.label1.TabIndex = 9;
             this.label1.Text = "Employee";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(50, 728);
+            this.label9.Location = new System.Drawing.Point(89, 762);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 31);
             this.label9.TabIndex = 7;
@@ -290,6 +291,7 @@
             this.label8.Size = new System.Drawing.Size(130, 31);
             this.label8.TabIndex = 6;
             this.label8.Text = "Dashboard";
+            this.label8.Click += new System.EventHandler(this.label8_Click_1);
             // 
             // panel8
             // 
@@ -309,6 +311,7 @@
             this.label7.Size = new System.Drawing.Size(170, 31);
             this.label7.TabIndex = 6;
             this.label7.Text = "Blood Transfer";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // panel7
             // 
@@ -328,6 +331,7 @@
             this.label6.Size = new System.Drawing.Size(143, 31);
             this.label6.TabIndex = 6;
             this.label6.Text = "Blood Stock";
+            this.label6.Click += new System.EventHandler(this.label6_Click_1);
             // 
             // panel6
             // 
@@ -347,6 +351,7 @@
             this.label5.Size = new System.Drawing.Size(148, 31);
             this.label5.TabIndex = 6;
             this.label5.Text = "View Patient";
+            this.label5.Click += new System.EventHandler(this.label5_Click_1);
             // 
             // panel5
             // 
@@ -366,6 +371,7 @@
             this.label4.Size = new System.Drawing.Size(90, 31);
             this.label4.TabIndex = 6;
             this.label4.Text = "Patient";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // panel4
             // 
@@ -385,6 +391,7 @@
             this.label3.Size = new System.Drawing.Size(150, 31);
             this.label3.TabIndex = 6;
             this.label3.Text = "View Donors";
+            this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // panel3
             // 

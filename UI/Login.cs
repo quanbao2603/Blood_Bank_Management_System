@@ -157,5 +157,10 @@ namespace Blood_Bank
         {
             EmpPassTb.UseSystemPasswordChar = !EmpPassTb.UseSystemPasswordChar;
         }
+
+        private void EmpIdTb_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

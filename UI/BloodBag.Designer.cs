@@ -1,6 +1,6 @@
 ﻿namespace Blood_Bank.UI
 {
-    partial class Form1
+    partial class BloodBag
     {
         /// <summary>
         /// Required designer variable.
@@ -31,17 +31,20 @@
             this.label10 = new System.Windows.Forms.Label();
             this.dataGridViewBloodBags = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBloodBags)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label10.Location = new System.Drawing.Point(265, 24);
+            this.label10.Location = new System.Drawing.Point(283, 19);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(258, 67);
             this.label10.TabIndex = 6;
@@ -62,24 +65,37 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.BackgroundImage = global::Blood_Bank.Properties.Resources.backgroundlogin;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(805, 109);
             this.panel1.TabIndex = 8;
             // 
-            // Form1
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Blood_Bank.Properties.Resources.icons8_blood_bag_64;
+            this.pictureBox1.Location = new System.Drawing.Point(213, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // BloodBag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridViewBloodBags);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "BloodBag";
+            this.Text = "BloodBag";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBloodBags)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -89,5 +105,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridView dataGridViewBloodBags;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
