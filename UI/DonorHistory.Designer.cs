@@ -40,7 +40,7 @@
             this.dataGridViewHistory.Name = "dataGridViewHistory";
             this.dataGridViewHistory.RowHeadersWidth = 51;
             this.dataGridViewHistory.RowTemplate.Height = 24;
-            this.dataGridViewHistory.Size = new System.Drawing.Size(877, 358);
+            this.dataGridViewHistory.Size = new System.Drawing.Size(888, 358);
             this.dataGridViewHistory.TabIndex = 0;
             this.dataGridViewHistory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewHistory_CellContentClick);
             // 
