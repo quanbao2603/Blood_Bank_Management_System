@@ -1,6 +1,6 @@
 ﻿namespace Blood_Bank.UI
 {
-    partial class Form1
+    partial class BloodBag
     {
         /// <summary>
         /// Required designer variable.
@@ -28,25 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label10 = new System.Windows.Forms.Label();
             this.dataGridViewBloodBags = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBloodBags)).BeginInit();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label10.Location = new System.Drawing.Point(265, 24);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(258, 67);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "BloodBag";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // dataGridViewBloodBags
             // 
@@ -62,31 +47,26 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.label10);
             this.panel1.Location = new System.Drawing.Point(0, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(805, 109);
+            this.panel1.Size = new System.Drawing.Size(805, 118);
             this.panel1.TabIndex = 8;
             // 
-            // Form1
+            // BloodBag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridViewBloodBags);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "BloodBag";
+            this.Text = "BloodBag";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBloodBags)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DataGridView dataGridViewBloodBags;
         private System.Windows.Forms.Panel panel1;
     }

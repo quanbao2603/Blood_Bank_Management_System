@@ -126,5 +126,45 @@ namespace Blood_Bank
                 historyForm.ShowDialog(); // hoặc .Show()
             }
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Donor());
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Patient());
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new View_Patient());
+        }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Blood_Stockcs());
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Blood_Transfer());
+        }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Dashboard());
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Employee());
+        }
+
     }
 }

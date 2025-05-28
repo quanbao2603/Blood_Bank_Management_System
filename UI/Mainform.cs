@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Blood_Bank.UI;
 using Blood_Bank.UI_Helper;
 
 namespace Blood_Bank
@@ -61,13 +62,13 @@ namespace Blood_Bank
                 {
                     dashboardForm.FormChangeRequested += OnFormChangeRequested;
                 }
-
-                // Đăng ký sự kiện FormClosed để hiện lại Mainform khi form con đóng
-                form.FormClosed += (s, args) =>
-                {
-                    this.Show(); // Hiện lại Mainform khi form con đóng
-                    currentForm = null; // Đặt lại form hiện tại
-                };
+                
+                    // Đăng ký sự kiện FormClosed để hiện lại Mainform khi form con đóng
+                    form.FormClosed += (s, args) =>
+                    {
+                        this.Show(); // Hiện lại Mainform khi form con đóng
+                        currentForm = null; // Đặt lại form hiện tại
+                    };
 
                 // Ẩn Mainform và hiển thị form con
                 this.Hide();
@@ -137,6 +138,12 @@ namespace Blood_Bank
             OpenFormAndHideMain(dashboard);
         }
 
+        private void label11_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Debug.WriteLine("label11_Click called");
+            BloodBag bloodTransfer = new BloodBag();
+            OpenFormAndHideMain(bloodTransfer);
+        }
         private void label9_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show(
@@ -174,7 +181,6 @@ namespace Blood_Bank
             label9.ForeColor = Color.White;
             label10.BackColor = Color.Transparent;
             label10.ForeColor = Color.White;
-
             label1.BackColor = Color.Transparent;
             label1.Parent = panel2;
             label1.ForeColor = Color.Black;
@@ -187,5 +193,7 @@ namespace Blood_Bank
         {
 
         }
+
+        
     }
 }

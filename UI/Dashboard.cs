@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Guna.UI2.WinForms;
 using Blood_Bank.Service;
 using Blood_Bank.UI_Helper;
+using Blood_Bank.UI;
 
 namespace Blood_Bank
 {
@@ -189,6 +190,46 @@ namespace Blood_Bank
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Donor());
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new View_Donors());
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Patient());
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new View_Patient());
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            FormNavigator.Navigate(this, new Blood_Stockcs());
+        }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Blood_Transfer());
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            FormNavigator.Navigate(this, new Employee());
         }
     }
 }

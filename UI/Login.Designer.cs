@@ -42,10 +42,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -93,6 +93,7 @@
             this.EmpIdTb.Name = "EmpIdTb";
             this.EmpIdTb.Size = new System.Drawing.Size(256, 38);
             this.EmpIdTb.TabIndex = 6;
+            this.EmpIdTb.TextChanged += new System.EventHandler(this.EmpIdTb_TextChanged);
             // 
             // EmpPassTb
             // 
@@ -212,6 +213,18 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "No account yet?";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = global::Blood_Bank.Properties.Resources.hide;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Location = new System.Drawing.Point(435, 244);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(32, 30);
+            this.button1.TabIndex = 33;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Blood_Bank.Properties.Resources.padlock;
@@ -241,18 +254,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.BackgroundImage = global::Blood_Bank.Properties.Resources.hide;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(435, 244);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 30);
-            this.button1.TabIndex = 33;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Login
             // 

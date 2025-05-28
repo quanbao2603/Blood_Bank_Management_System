@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label10 = new System.Windows.Forms.Label();
             this.BloodStockDGV = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.DBGroupCb = new System.Windows.Forms.ComboBox();
@@ -75,21 +75,21 @@
             // BloodStockDGV
             // 
             this.BloodStockDGV.AllowCustomTheming = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.BloodStockDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            this.BloodStockDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
             this.BloodStockDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.BloodStockDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.BloodStockDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.BloodStockDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BloodStockDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BloodStockDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.BloodStockDGV.ColumnHeadersHeight = 40;
             this.BloodStockDGV.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.BloodStockDGV.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
@@ -109,14 +109,14 @@
             this.BloodStockDGV.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.BloodStockDGV.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.BloodStockDGV.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BloodStockDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BloodStockDGV.DefaultCellStyle = dataGridViewCellStyle30;
             this.BloodStockDGV.EnableHeadersVisualStyles = false;
             this.BloodStockDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.BloodStockDGV.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -157,7 +157,7 @@
             this.label11.ForeColor = System.Drawing.Color.Red;
             this.label11.Location = new System.Drawing.Point(6, 210);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(225, 46);
+            this.label11.Size = new System.Drawing.Size(215, 45);
             this.label11.TabIndex = 41;
             this.label11.Text = "Blood Group";
             // 
@@ -204,13 +204,14 @@
             this.label8.Size = new System.Drawing.Size(118, 31);
             this.label8.TabIndex = 9;
             this.label8.Text = "Employee";
+            this.label8.Click += new System.EventHandler(this.label8_Click_1);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(50, 728);
+            this.label9.Location = new System.Drawing.Point(89, 762);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 31);
             this.label9.TabIndex = 7;
@@ -234,6 +235,7 @@
             this.label7.Size = new System.Drawing.Size(130, 31);
             this.label7.TabIndex = 6;
             this.label7.Text = "Dashboard";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // panel8
             // 
@@ -253,6 +255,7 @@
             this.label6.Size = new System.Drawing.Size(170, 31);
             this.label6.TabIndex = 6;
             this.label6.Text = "Blood Transfer";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel7
             // 
@@ -272,6 +275,7 @@
             this.label5.Size = new System.Drawing.Size(143, 31);
             this.label5.TabIndex = 6;
             this.label5.Text = "Blood Stock";
+            this.label5.Click += new System.EventHandler(this.label5_Click_1);
             // 
             // panel6
             // 
@@ -291,6 +295,7 @@
             this.label4.Size = new System.Drawing.Size(148, 31);
             this.label4.TabIndex = 6;
             this.label4.Text = "View Patient";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
             // 
             // panel5
             // 
@@ -310,6 +315,7 @@
             this.label3.Size = new System.Drawing.Size(90, 31);
             this.label3.TabIndex = 6;
             this.label3.Text = "Patient";
+            this.label3.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // panel4
             // 
@@ -329,6 +335,7 @@
             this.label2.Size = new System.Drawing.Size(150, 31);
             this.label2.TabIndex = 6;
             this.label2.Text = "View Donors";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // panel3
             // 
@@ -348,6 +355,7 @@
             this.label1.Size = new System.Drawing.Size(82, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "Donor";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 
