@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Blood_Bank.UI
@@ -13,8 +14,10 @@ namespace Blood_Bank.UI
         public BloodBag()
         {
             InitializeComponent();
+            CustomizeFormHeader();
             CustomizeDataGridView();
             LoadBloodBagData();
+            dataGridViewBloodBags.CellFormatting += dataGridViewBloodBags_CellFormatting;
         }
 
         private void LoadBloodBagData()
@@ -56,28 +59,68 @@ namespace Blood_Bank.UI
             }
         }
 
+        private void CustomizeFormHeader()
+        {
+            Label title = new Label
+            {
+                Text = "BloodBag",
+                Font = new Font("Segoe UI", 20, FontStyle.Bold),
+                ForeColor = Color.White,
+                BackColor = Color.FromArgb(220, 53, 69),
+                TextAlign = ContentAlignment.MiddleCenter,
+                Dock = DockStyle.Top,
+                Height = 60
+            };
+
+            this.Controls.Add(title);
+            title.BringToFront();
+        }
+
         private void CustomizeDataGridView()
         {
-            this.BackColor = Color.FromArgb(255, 204, 204);
+            this.BackColor = Color.WhiteSmoke;
 
             dataGridViewBloodBags.BackgroundColor = Color.White;
-            dataGridViewBloodBags.BorderStyle = BorderStyle.Fixed3D;
+            dataGridViewBloodBags.BorderStyle = BorderStyle.None;
+            dataGridViewBloodBags.GridColor = Color.LightGray;
 
             dataGridViewBloodBags.EnableHeadersVisualStyles = false;
-
-            dataGridViewBloodBags.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(255, 51, 51);
+            dataGridViewBloodBags.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(220, 53, 69);
             dataGridViewBloodBags.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
-            dataGridViewBloodBags.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);
+            dataGridViewBloodBags.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
             dataGridViewBloodBags.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
-            dataGridViewBloodBags.RowsDefaultCellStyle.BackColor = Color.FromArgb(255, 245, 245);
+            dataGridViewBloodBags.RowsDefaultCellStyle.BackColor = Color.White;
             dataGridViewBloodBags.RowsDefaultCellStyle.ForeColor = Color.Black;
-            dataGridViewBloodBags.RowsDefaultCellStyle.Font = new Font("Arial", 9);
+            dataGridViewBloodBags.RowsDefaultCellStyle.Font = new Font("Segoe UI", 9);
 
-            dataGridViewBloodBags.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(255, 230, 230);
+            dataGridViewBloodBags.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(248, 249, 250);
 
-            dataGridViewBloodBags.GridColor = Color.FromArgb(255, 102, 102);
-            dataGridViewBloodBags.CellBorderStyle = DataGridViewCellBorderStyle.Single;
+            dataGridViewBloodBags.DefaultCellStyle.Padding = new Padding(5);
+            dataGridViewBloodBags.DefaultCellStyle.WrapMode = DataGridViewTriState.True;
+
+            dataGridViewBloodBags.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+        }
+
+        private void dataGridViewBloodBags_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            if (dataGridViewBloodBags.Columns[e.ColumnIndex].Name == "Status")
+            {
+                var status = e.Value?.ToString();
+                var row = dataGridViewBloodBags.Rows[e.RowIndex];
+
+                if (status != null)
+                {
+                    if (status.Contains("Đã hết hạn"))
+                        row.DefaultCellStyle.BackColor = Color.LightGray;
+                    else if (status.Contains("khẩn cấp"))
+                        row.DefaultCellStyle.BackColor = Color.FromArgb(255, 204, 204);
+                    else if (status.Contains("cảnh báo"))
+                        row.DefaultCellStyle.BackColor = Color.FromArgb(255, 255, 204); 
+                    else
+                        row.DefaultCellStyle.BackColor = Color.White;
+                }
+            }
         }
 
         private void dataGridViewBloodBags_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -86,7 +129,7 @@ namespace Blood_Bank.UI
             {
                 DataGridViewRow row = dataGridViewBloodBags.Rows[e.RowIndex];
                 Color originalColor = row.DefaultCellStyle.BackColor;
-                row.DefaultCellStyle.BackColor = Color.FromArgb(255, 182, 193);
+                row.DefaultCellStyle.BackColor = Color.FromArgb(255, 182, 193); // Màu hồng highlight
                 dataGridViewBloodBags.Refresh();
 
                 string bagDetails = $"Mã túi máu: {row.Cells["BagID"].Value}\n" +
@@ -98,7 +141,7 @@ namespace Blood_Bank.UI
 
                 MessageBox.Show(bagDetails, "Thông tin túi máu", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                System.Threading.Tasks.Task.Delay(500).ContinueWith(_ =>
+                Task.Delay(500).ContinueWith(_ =>
                 {
                     row.DefaultCellStyle.BackColor = originalColor;
                     this.Invoke((MethodInvoker)delegate { dataGridViewBloodBags.Refresh(); });
