@@ -78,7 +78,6 @@
     <Compile Include="Data\ViewPatientsRepository.cs" />
     <Compile Include="Service\BloodStockService.cs" />
     <Compile Include="Service\BloodTransferService.cs" />
-    <Compile Include="Service\FormNavigator.cs" />
     <Compile Include="Service\MailService.cs" />
     <Compile Include="Service\DashboardService.cs" />
     <Compile Include="Service\DonateBloodService.cs" />
@@ -124,12 +123,6 @@
     <Compile Include="UI\Donor.Designer.cs">
       <DependentUpon>Donor.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\DonorHistory.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\DonorHistory.Designer.cs">
-      <DependentUpon>DonorHistory.cs</DependentUpon>
-    </Compile>
     <Compile Include="UI\Employee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,13 +135,6 @@
     <Compile Include="UI\CreateAccount.Designer.cs">
       <DependentUpon>CreateAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\BloodBag.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\BloodBag.Designer.cs">
-      <DependentUpon>BloodBag.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI_Helper\GradientBackgroundHelper.cs" />
     <Compile Include="UI\ResetPass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,8 +179,6 @@
     <Compile Include="UI\View_Patients.Designer.cs">
       <DependentUpon>View_Patients.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI_Helper\RoundLabelHelper.cs" />
-    <Compile Include="UI_Helper\RoundPannel.cs" />
     <EmbeddedResource Include="UI\AdminLogin.resx">
       <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,9 +200,6 @@
     <EmbeddedResource Include="UI\Donor.resx">
       <DependentUpon>Donor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\DonorHistory.resx">
-      <DependentUpon>DonorHistory.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
@@ -231,11 +212,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UI\BloodBag.resx">
-      <DependentUpon>BloodBag.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\ResetPass.resx">
       <DependentUpon>ResetPass.cs</DependentUpon>
     </EmbeddedResource>
@@ -268,97 +245,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resources\Montserrat.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\12.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\being_sick.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ghagfqtvu3a49bnj2fb3ibpf4l.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\needle.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NicePng_blood-symbol-png_3647802.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngwing.com.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Thiết kế chưa có tên - 1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Thiết kế chưa có tên.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\users.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\padlock.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backgroundlogin.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bl.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\header_1500x1000.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\123.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\indian.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoc.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoca.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\red_blood.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hide.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pngtree-blood-bank-png-image_6099157.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\blood-bank.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\blood-donation.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hospitalisation.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\medical.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\saline.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\dashboard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\personnel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icons8-blood-bag-64.png" />
+    <Folder Include="source\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
