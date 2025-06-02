@@ -1,0 +1,142 @@
+D:\Winform\Blood_Bank\bin\Debug\Blood_Bank.exe.config
+D:\Winform\Blood_Bank\bin\Debug\Blood_Bank.exe
+D:\Winform\Blood_Bank\bin\Debug\Blood_Bank.pdb
+D:\Winform\Blood_Bank\bin\Debug\Guna.UI2.dll
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.AssemblyReference.cache
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Properties.Resources.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.GenerateResource.cache
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.CoreCompileInputs.cache
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.csproj.Up2Date
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.exe
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.pdb
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Splash.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.exe.licenses
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Login.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Mainform.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Donor.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Patient.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.View_Donors.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.View_Patient.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Blood_Stockcs.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Blood_Transfer.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.Dashboard.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.DonateBlood.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.Employee.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.AdminLogin.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\bin\Debug\Blood_Bank.exe.config
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\bin\Debug\Blood_Bank.exe
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\bin\Debug\Blood_Bank.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\bin\Debug\Guna.UI2.dll
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.UI.AdminLogin.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Blood_Stockcs.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Blood_Transfer.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Dashboard.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.UI.DonateBlood.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Donor.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.UI.Employee.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Properties.Resources.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Login.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Mainform.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Patient.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.Splash.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.View_Donors.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.View_Patient.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.GenerateResource.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.exe.licenses
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.Up2Date
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.exe
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.pdb
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.UI.CreateAccount.resources
+C:\Users\ADMIN\OneDrive\Máy tính\Blood_Bank-main\Blood_Bank-main\obj\Debug\Blood_Bank.UI.ResetPass.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\bin\Debug\Blood_Bank.exe.config
+C:\Users\nguye\Downloads\Blood_Bank-main\bin\Debug\Blood_Bank.exe
+C:\Users\nguye\Downloads\Blood_Bank-main\bin\Debug\Blood_Bank.pdb
+C:\Users\nguye\Downloads\Blood_Bank-main\bin\Debug\Guna.UI2.dll
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.UI.AdminLogin.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Blood_Stockcs.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Blood_Transfer.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.UI.CreateAccount.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Dashboard.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.UI.DonateBlood.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Donor.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.UI.Employee.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Properties.Resources.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.UI.ResetPass.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Login.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Mainform.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Patient.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.Splash.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.View_Donors.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.View_Patient.resources
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.GenerateResource.cache
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.exe.licenses
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.csproj.Up2Date
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.exe
+C:\Users\nguye\Downloads\Blood_Bank-main\obj\Debug\Blood_Bank.pdb
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.CreateAccount.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.ResetPass.resources
+D:\Winform\Blood_Bank\obj\Debug\Blood_Bank.UI.DonorHistory.resources
+D:\C#\Blood_Bank_Management_System\bin\Debug\Blood_Bank.exe.config
+D:\C#\Blood_Bank_Management_System\bin\Debug\Blood_Bank.exe
+D:\C#\Blood_Bank_Management_System\bin\Debug\Blood_Bank.pdb
+D:\C#\Blood_Bank_Management_System\bin\Debug\Guna.UI2.dll
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.AssemblyReference.cache
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.AdminLogin.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Blood_Stockcs.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Blood_Transfer.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.CreateAccount.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Dashboard.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.DonateBlood.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Donor.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.DonorHistory.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.Employee.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Properties.Resources.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.ResetPass.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Login.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Mainform.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Patient.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Splash.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.View_Donors.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.View_Patient.resources
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.GenerateResource.cache
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe.licenses
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.CoreCompileInputs.cache
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.Up2Date
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.pdb
+D:\Winform\Blood_Bank_Management_System\bin\Debug\Blood_Bank.exe.config
+D:\Winform\Blood_Bank_Management_System\bin\Debug\Blood_Bank.exe
+D:\Winform\Blood_Bank_Management_System\bin\Debug\Blood_Bank.pdb
+D:\Winform\Blood_Bank_Management_System\bin\Debug\Guna.UI2.dll
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.AssemblyReference.cache
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.AdminLogin.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Blood_Stockcs.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Blood_Transfer.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.CreateAccount.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Dashboard.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.DonateBlood.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Donor.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.DonorHistory.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.Employee.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Properties.Resources.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.ResetPass.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Login.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Mainform.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Patient.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.Splash.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.View_Donors.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.View_Patient.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.GenerateResource.cache
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe.licenses
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.CoreCompileInputs.cache
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.csproj.Up2Date
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.pdb
+D:\C#\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.BloodBag.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.BloodBag.resources
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.exe.config
+D:\Winform\Blood_Bank_Management_System\obj\Debug\Blood_Bank.UI.RegisterDonation.resources
